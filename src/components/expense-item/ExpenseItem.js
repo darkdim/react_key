@@ -2,7 +2,7 @@ import './expense-item.css';
 import ExpenseDate from '../expense-date';
 import Card from '../card';
 
-function ExpenseItem({ title, amount, date }) {
+const ExpenseItem = ({ title, amount, date }) => {
 
   return (<Card className="expense-item">
     <ExpenseDate date={date} />

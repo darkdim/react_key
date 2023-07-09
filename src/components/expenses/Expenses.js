@@ -2,7 +2,7 @@ import './expenses.css';
 import ExpenseItem from '../expense-item';
 import Card from '../card';
 
-function Expenses({ items }) {
+const Expenses = ({ items }) => {
   return (
     <Card className="expenses">
       {items.map((expense) => {
